@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TheRealWeatherApp</string>
+
+    <string-array name="spinnerCars">
+        <item> Traditional Sedan </item>
+        <item> Smart Car (2$ Fee) </item>
+        <item> Minivan (5$ fee) </item>
+    </string-array>
+
+    <string name="inputMileHint">15</string>
+    <string name="hint">Choose your measyuerment perfrence:</string>
 </resources>
