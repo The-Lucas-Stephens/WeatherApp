@@ -2,8 +2,8 @@
     <string name="app_name">TheRealWeatherApp</string>
 
     <string-array name="spinnerWeather">
-        <item> MetricSystem</item>
-        <item> ImperialSystem</item>
+        <item>MetricSystem</item>
+        <item>ImperialSystem</item>
     </string-array>
 
     <string name="inputZipcodeHint">Example: 65807</string>
