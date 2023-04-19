@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">TheRealWeatherApp</string>
 
-    <string-array name="spinnerCars">
+    <string-array name="spinnerWeather">
         <item> Metric System (C)</item>
         <item> Imperial System (F)</item>
     </string-array>
 
-    <string name="inputMileHint">15</string>
-    <string name="hint">Choose your measyuerment perfrence:</string>
+    <string name="inputZipcodeHint">Example: 65807</string>
+    <string name="hint">Choose your measurement preference:</string>
+    <string name="hint2">Enter Zip Code below:</string>
+    <string name="getWeatherBtn">Get Weather</string>
 </resources>
