@@ -2,9 +2,8 @@
     <string name="app_name">TheRealWeatherApp</string>
 
     <string-array name="spinnerCars">
-        <item> Traditional Sedan </item>
-        <item> Smart Car (2$ Fee) </item>
-        <item> Minivan (5$ fee) </item>
+        <item> Metric System (C)</item>
+        <item> Imperial System (F)</item>
     </string-array>
 
     <string name="inputMileHint">15</string>
