@@ -158,7 +158,7 @@ public class DisplayWeather extends AppCompatActivity {
                     weatherDescription.setText("Current Weather:" +currentWeatherDescription);
 
                     if(tempType.equals("MetricSystem")){
-                        temperature.setText("Temperature" + temp + " °C"); // format the temperature value as needed
+                        temperature.setText("Temperature: " + temp + " °C"); // format the temperature value as needed
 
                     }
                     else if(tempType.equals("ImperialSystem")){
