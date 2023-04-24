@@ -3,6 +3,7 @@ package com.example.therealweatherapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -50,6 +52,7 @@ public class DisplayWeather extends AppCompatActivity {
     private RequestQueue mRequestQueue;
     private StringRequest mStringRequest;
     private String url ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -192,6 +195,14 @@ public class DisplayWeather extends AppCompatActivity {
         });
 
         mRequestQueue.add(mStringRequest);
+
+        Button back_btn = (Button) findViewById(R.id.go_back_btn);
+
+        back_btn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(DisplayWeather.this, MainActivity.class));
+            }
+        });
     }
 
 
