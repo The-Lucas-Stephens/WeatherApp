@@ -152,7 +152,7 @@ public class DisplayWeather extends AppCompatActivity {
 
                     // Set the values for the layout elements
                     cityName.setText("City Name: " +name);
-                    weatherDescription.setText("Current Weather " +currentWeatherDescription);
+                    weatherDescription.setText("Current Weather:" +currentWeatherDescription);
 
                     if(tempType.equals("MetricSystem")){
                         temperature.setText("Temperature" + temp + " °C"); // format the temperature value as needed
